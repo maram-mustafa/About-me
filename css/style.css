@@ -1,0 +1,21 @@
+body{
+    background-color:#E2D5D5 ;
+    text-align: center;
+    font-family: 'Train One', cursive;
+    margin: 0;
+}
+
+
+header{
+    background-color: #8e7f7f;
+    height: 50px;
+    color: white;    
+    font-family: 'Train One', cursive;
+    font-size: 95%;
+    text-align: center;
+}
+
+header h1 {     
+  margin: 0;
+}
+
