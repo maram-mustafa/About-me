@@ -9,3 +9,13 @@ lowercase/uppercase/y/n.
 
 and using this link as a resources:
 [link](https://codefellows.github.io/code-201-guide/curriculum/class-02/project_setup)
+
+
+----
+in lab 03
+
+added a new gussing game, let user guess what is the particular number 
+and show to him what is the result independ of what he choose. 
+
+and the second thing is add an array have some talent and let the user guess what is the correct answers,and he have a 6 attempt
+after he gussing correct Or he exhubtend the 6 attempt then will alert him what he choose and what is the right answers 
