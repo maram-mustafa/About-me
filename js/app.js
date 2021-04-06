@@ -1,4 +1,5 @@
 'use strict';
+
 let userName = prompt('please enter your name!');
 alert('welcome to my website ' + userName);
 
@@ -114,6 +115,63 @@ switch(qusFive){
 
 alert('Thanks for visiting my site ' + userName);
 
+
+
+
+
+
+
+for (let i = 0; i < 4; i++) {
+    let number = 4;
+    let guess = prompt('guess a number!');
+
+    if (parseInt(guess) === parseInt(number)) {
+        alert('YOU GOT IT RIGHT');
+        break;
+
+    } else if (parseInt(guess) > parseInt(number)) {
+        alert('TOO HIGH! GUESS AGAIN!');
+
+    } else if (parseInt(guess) < parseInt(number)) {
+        alert('TOO LOW! GUESS AGAIN');
+
+    } else {
+        alert('ENTER A NUMBER');
+
+    }
+}
+alert('You exhausted your 4 attempts, correct answer # 4');
+
+
+
+let score = 0;
+let talent = ['dancing', 'acting', 'singing', 'painting', 'reading', 'photographing'];
+
+for (let y = 0 ; y < 6 ; y++) {
+    let answer = prompt('Can you guess which a 4 aption are correct??? dancing, acting, singing, painting, reading, photographing');
+
+    for (let x = 0; x < talent.length; x++) {
+        if (answer === talent[0] || answer === talent[1] || answer === talent[2] || answer === talent[3] ) {
+            score++;
+          alert('yess! You guessed it');
+          alert('your score increased ' + score);
+            break;
+
+        } else if (answer === talent[4] || answer === talent[5]) {
+            alert('try again!');
+            break;
+
+        } else {
+            alert('wrong');
+            break;
+        }
+    }
+  
+}
+alert('the correct answers: dancing , acting, singing, painting');
+alert('your score ' +  score );
+  
+ 
 
 
 
