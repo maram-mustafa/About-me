@@ -208,34 +208,30 @@ if(dancingOn == 'true' && actingOn == 'true' && singingOn == 'true'){
 
 
 
-/*
 
+
+/*
 let score = 0;
 let talent = ['dancing', 'acting', 'singing', 'painting', 'reading', 'photographing'];
 
-for (let y = 0 ; y < 6 ; y++) {
-    let answer = prompt('Can you guess which a 4 aption are correct??? dancing, acting, singing, painting, reading, photographing');
-
     for (let x = 0; x < talent.length; x++) {
-        if (answer === talent[0] || answer === talent[1] || answer === talent[2] || answer === talent[3] ) {
+      let answer = prompt('Can you guess which a 4 aption are correct??? dancing, acting, singing, painting, reading, photographing');
+
+
+        if (answer === talent[0] || answer === talent[1] || answer === talent[2] || answer === talent[3]) {
             score++;
-          alert('yess! You guessed it');
-          alert('your score increased ' + score);
-            break;
+            alert('yess! You guessed it');
+            alert('your score increased ' + score);
 
         } else if (answer === talent[4] || answer === talent[5]) {
             alert('try again!');
-            break;
 
         } else {
-            alert('wrong');
-            break;
+            alert('try again');
         }
     }
-  
-}
-alert('the correct answers: dancing , acting, singing, painting');
-alert('your score ' +  score );
-  
- 
-*/
+    alert('the correct answers dancing, acting, singing and painting');
+    alert('good, your score is  ' + score);
+
+
+ */
