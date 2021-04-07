@@ -6,7 +6,7 @@ alert('welcome to my website ' + userName);
 
 let qusOne = prompt('Do you think my name is maram ?!');
 //console.log(qusOne);
-alert(qusOne);
+//alert(qusOne);
 qusOne = qusOne.toLowerCase();
 
 switch(qusOne){
@@ -27,7 +27,7 @@ switch(qusOne){
 
 let qusTwo = prompt('Do you think I studied programming ?');
 //console.log(qusTwo);
-alert(qusTwo);
+//alert(qusTwo);
 qusTwo = qusTwo.toLowerCase();
 
 switch(qusTwo){
@@ -50,7 +50,7 @@ switch(qusTwo){
 
 let qusThree = prompt('Is the University of Jordan the one that I studied at or not?');
 //console.log(qusThree);
-alert(qusThree);
+//alert(qusThree);
 qusThree = qusThree.toLowerCase();
 
 switch(qusThree){
@@ -71,7 +71,7 @@ switch(qusThree){
 
 let qusFour = prompt('Do you think I got certificates in another field of IT?');
 //console.log(qusFour);
-alert(qusFour);
+//alert(qusFour);
 qusFour = qusFour.toLowerCase();
 
 switch(qusFour){
@@ -94,7 +94,7 @@ switch(qusFour){
 
 let qusFive = prompt('Do you think the first field I got deeper into was programming?');
 //console.log(qusFive);
-alert(qusFive);
+//alert(qusFive);
 qusFive = qusFive.toLowerCase();
 
 switch(qusFive){
