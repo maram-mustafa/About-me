@@ -100,8 +100,7 @@ switch(qusFour){
 }
 questionFour();
 
-
-
+function questionfive(){
 let qusFive = prompt('Do you think the first field I got deeper into was programming?');
 //console.log(qusFive);
 //alert(qusFive);
@@ -122,7 +121,8 @@ switch(qusFive){
             alert('please input a valid value');
             break;
 }
-
+}
+questionfive();
 alert('Thanks for visiting my site ' + userName);
 
 
