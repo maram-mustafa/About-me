@@ -76,6 +76,7 @@ switch(qusThree){
 
 questionThree();
 
+function questionFour(){
 let qusFour = prompt('Do you think I got certificates in another field of IT?');
 //console.log(qusFour);
 //alert(qusFour);
@@ -96,6 +97,8 @@ switch(qusFour){
             alert('please input a valid value');
             break;
 }
+}
+questionFour();
 
 
 
