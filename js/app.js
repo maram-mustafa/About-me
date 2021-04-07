@@ -156,7 +156,7 @@ let singingOn = 'false';
 
 
 for (let y = 0 ; y < 6 ; y++) {
-    let answer = prompt('Can you guess which a 4 aption are correct??? dancing, acting, singing, painting, reading, photographing');
+    let answer = prompt('Can you guess which a 3 aption are correct??? dancing, acting, singing, painting, reading, photographing');
 if (answer === talent[0]){
     if (dancingOn == 'false'){
         alert('you picked right');
