@@ -157,16 +157,23 @@ let answer= null;
                 score++;
                 alert('your score ' + score);
                 y=50;
+            }else {
+                alert('wrong! try again');
+            }
         }
-        }
+        
+        
     
         if (x === 5){
             alert('you didnt answer correct ');
             alert('the corect answer is dancing, acting, singing, painting, reading '); 
             alert('your score ' + score);
         }
+    
+}
 
-    }
+
+
     
 
 
