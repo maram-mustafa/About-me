@@ -100,7 +100,7 @@ switch(qusFour){
 }
 questionFour();
 
-function questionfive(){
+function questionFive(){
 let qusFive = prompt('Do you think the first field I got deeper into was programming?');
 //console.log(qusFive);
 //alert(qusFive);
@@ -122,15 +122,10 @@ switch(qusFive){
             break;
 }
 }
-questionfive();
+questionFive();
 alert('Thanks for visiting my site ' + userName);
 
-
-
-
-
-
-
+function questionSix(){
 for (let i = 0; i < 4; i++) {
     let number = 4;
     let guess = prompt('guess a number!');
@@ -149,11 +144,10 @@ for (let i = 0; i < 4; i++) {
         alert('ENTER A NUMBER');
 
     }
-}
+}}
 alert('You exhausted your 4 attempts, correct answer # 4');
+questionSix();
 
-
- 
 let score = 0;
 let talent = ['dancing', 'acting', 'singing', 'painting', 'reading', ];
 let answer= null;
