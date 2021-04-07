@@ -158,7 +158,8 @@ let answer= null;
                 alert('your score ' + score);
                 y=50;
         }
-    }
+        }
+    
         if (x === 5){
             alert('you didnt answer correct ');
             
