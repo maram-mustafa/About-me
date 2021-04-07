@@ -148,6 +148,7 @@ for (let i = 0; i < 4; i++) {
 alert('You exhausted your 4 attempts, correct answer # 4');
 questionSix();
 
+function questionSeven(){
 let score = 0;
 let talent = ['dancing', 'acting', 'singing', 'painting', 'reading', ];
 let answer= null;
@@ -171,9 +172,9 @@ let answer= null;
         }
 
     }
-    
-
-
+   
+}
+ questionSeven();
 
 
 
