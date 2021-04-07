@@ -181,66 +181,6 @@ let answer= null;
 
 
 
-// let score = 0;
-// let talent = ['dancing', 'acting', 'singing', 'painting', 'reading', 'photographing'];
-// let dancingOn = 'false';
-// let actingOn ='false';
-// let singingOn = 'false';
-
-// for (let y = 0 ; y < 6 ; y++) {
-//     let answer = prompt('Can you guess which a 3 aption are correct??? dancing, acting, singing, painting, reading, photographing');
-// if (answer === talent[0]){
-//     if (dancingOn == 'false'){
-//         alert('you picked right');
-//         dancingOn='true';
-//         score++;
-//     }else{
-//         alert('you picked it before');
-//     }
-// }
-
-// else if (answer === talent[1]){
-//     if (actingOn == 'false'){
-//         alert('you picked right');
-//         actingOn='true';
-//         score++;
-//     }else{
-//         alert('you picked it before');
-//     }
-// }
-// else if (answer === talent[2]){
-//     if (singingOn == 'false'){
-//         alert('you picked right');
-//         singingOn ='true';
-//         score++;
-//     }else{
-//         alert('you picked it before');
-//     }
-// }
-
-
-// else if (answer === talent[3] || answer === talent[4] || answer === talent[5]){
-//     alert('you guess wrong, try again');
-
-// }else{
-//     elert('wrong1');
-// }
-
-// if(dancingOn == 'true' && actingOn == 'true' && singingOn == 'true'){
-//     alert('you did it ');
-//     alert('your score is  ' + score);
-//     y=6;
-// }else{
-//     alert('pick again !');
-// }
- 
-// }
-
-
-
-
-
-
 
 
 
