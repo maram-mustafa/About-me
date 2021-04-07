@@ -27,7 +27,7 @@ switch(qusOne){
 }
 questionOne();
 
-
+function questionTwo(){
 let qusTwo = prompt('Do you think I studied programming ?');
 //console.log(qusTwo);
 //alert(qusTwo);
@@ -48,7 +48,8 @@ switch(qusTwo){
         alert('please input a valid value');
 
 }
-
+}
+questionTwo();
 
 
 let qusThree = prompt('Is the University of Jordan the one that I studied at or not?');
