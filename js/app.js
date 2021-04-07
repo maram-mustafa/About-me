@@ -164,6 +164,7 @@ let answer= null;
         }
     
 }
+<<<<<<< HEAD
 
 
 
@@ -176,6 +177,9 @@ let answer= null;
 
 
 
+=======
+ questionSeven();
+>>>>>>> a8153ae1ea2322a56931caccd0baf3dd7eec4e1d
 
 
 
