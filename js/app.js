@@ -144,98 +144,100 @@ alert('You exhausted your 4 attempts, correct answer # 4');
 
 
  
-
-
-
-
 let score = 0;
-let talent = ['dancing', 'acting', 'singing', 'painting', 'reading', 'photographing'];
-let dancingOn = 'false';
-let actingOn ='false';
-let singingOn = 'false';
+let talent = ['dancing', 'acting', 'singing', 'painting', 'reading', ];
+let answer= null;
+    for (let x = 0; x < 6 ; x++) {
+       answer = prompt('guess one of the talents ?!');
+        answer= answer.toLowerCase();
+        for(let y= 0 ; y< talent.length; y++){
 
-
-for (let y = 0 ; y < 6 ; y++) {
-    let answer = prompt('Can you guess which a 3 aption are correct??? dancing, acting, singing, painting, reading, photographing');
-if (answer === talent[0]){
-    if (dancingOn == 'false'){
-        alert('you picked right');
-        dancingOn='true';
-        score++;
-    }else{
-        alert('you picked it before');
-    }
-}
-
-else if (answer === talent[1]){
-    if (actingOn == 'false'){
-        alert('you picked right');
-        actingOn='true';
-        score++;
-    }else{
-        alert('you picked it before');
-    }
-}
-else if (answer === talent[2]){
-    if (singingOn == 'false'){
-        alert('you picked right');
-        singingOn ='true';
-        score++;
-    }else{
-        alert('you picked it before');
-    }
-}
-
-
-else if (answer === talent[3] || answer === talent[4] || answer === talent[5]){
-    alert('you guess wrong, try again');
-
-}else{
-    elert('wrong1');
-}
-
-if(dancingOn == 'true' && actingOn == 'true' && singingOn == 'true'){
-    alert('you did it ');
-    alert('your score is  ' + score);
-    y=6;
-}else{
-    alert('pick again !');
-}
- 
-}
-
-
-
-
-
-
-
-
-
-
-
-/*
-let score = 0;
-let talent = ['dancing', 'acting', 'singing', 'painting', 'reading', 'photographing'];
-
-    for (let x = 0; x < talent.length; x++) {
-      let answer = prompt('Can you guess which a 4 aption are correct??? dancing, acting, singing, painting, reading, photographing');
-
-
-        if (answer === talent[0] || answer === talent[1] || answer === talent[2] || answer === talent[3]) {
-            score++;
-            alert('yess! You guessed it');
-            alert('your score increased ' + score);
-
-        } else if (answer === talent[4] || answer === talent[5]) {
-            alert('try again!');
-
-        } else {
-            alert('try again');
+            if(answer === talent[y]){
+                alert('correct');
+                score++;
+                alert('your score ' + score);
+                y=50;
         }
     }
-    alert('the correct answers dancing, acting, singing and painting');
-    alert('good, your score is  ' + score);
+        if (x === 5){
+            alert('you didnt answer correct ');
+            
+        }
+
+    }
 
 
- */
+
+
+
+
+
+
+// let score = 0;
+// let talent = ['dancing', 'acting', 'singing', 'painting', 'reading', 'photographing'];
+// let dancingOn = 'false';
+// let actingOn ='false';
+// let singingOn = 'false';
+
+// for (let y = 0 ; y < 6 ; y++) {
+//     let answer = prompt('Can you guess which a 3 aption are correct??? dancing, acting, singing, painting, reading, photographing');
+// if (answer === talent[0]){
+//     if (dancingOn == 'false'){
+//         alert('you picked right');
+//         dancingOn='true';
+//         score++;
+//     }else{
+//         alert('you picked it before');
+//     }
+// }
+
+// else if (answer === talent[1]){
+//     if (actingOn == 'false'){
+//         alert('you picked right');
+//         actingOn='true';
+//         score++;
+//     }else{
+//         alert('you picked it before');
+//     }
+// }
+// else if (answer === talent[2]){
+//     if (singingOn == 'false'){
+//         alert('you picked right');
+//         singingOn ='true';
+//         score++;
+//     }else{
+//         alert('you picked it before');
+//     }
+// }
+
+
+// else if (answer === talent[3] || answer === talent[4] || answer === talent[5]){
+//     alert('you guess wrong, try again');
+
+// }else{
+//     elert('wrong1');
+// }
+
+// if(dancingOn == 'true' && actingOn == 'true' && singingOn == 'true'){
+//     alert('you did it ');
+//     alert('your score is  ' + score);
+//     y=6;
+// }else{
+//     alert('pick again !');
+// }
+ 
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
