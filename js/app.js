@@ -161,6 +161,7 @@ if (answer === talent[0]){
     if (dancingOn == 'false'){
         alert('you picked right');
         dancingOn='true';
+        score++;
     }else{
         alert('you picked it before');
     }
@@ -170,6 +171,7 @@ else if (answer === talent[1]){
     if (actingOn == 'false'){
         alert('you picked right');
         actingOn='true';
+        score++;
     }else{
         alert('you picked it before');
     }
@@ -178,6 +180,7 @@ else if (answer === talent[2]){
     if (singingOn == 'false'){
         alert('you picked right');
         singingOn ='true';
+        score++;
     }else{
         alert('you picked it before');
     }
@@ -193,6 +196,7 @@ else if (answer === talent[3] || answer === talent[4] || answer === talent[5]){
 
 if(dancingOn == 'true' && actingOn == 'true' && singingOn == 'true'){
     alert('you did it ');
+    alert('your score is  ' + score);
     y=6;
 }else{
     alert('pick again !');
