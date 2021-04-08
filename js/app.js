@@ -152,20 +152,26 @@ let answer= null;
                 y=50;
                 break;
 
-            } else if (answer !== talent[y]){
-
-                alert ('your answer is wrong !') ;
             }
+            if (answer !== talent[y]){
+                alert('try again ');
+            
+            }
+            }
+
             
             
-        }
+            if (x === 5){
+                alert('you didnt answer correctly');
+            }
+}
         
-        
-    }
+    
+    
 
 alert('the correct answer is: ' + talent[0]+ ',' + talent[1] + ',' +talent[2]+ ',' + talent[3] + ',' + talent[4] );
     alert('your scour is ' + score);
-}
+    }
 
  questionSeven();
 
