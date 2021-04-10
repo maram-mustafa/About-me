@@ -6,8 +6,6 @@ alert('welcome to my website ' + userName);
 
 function questionOne (){
 let qusOne = prompt('Do you think my name is maram ?!');
-//console.log(qusOne);
-//alert(qusOne);
 qusOne = qusOne.toLowerCase();
 switch(qusOne){
     case 'yes':
@@ -27,8 +25,6 @@ questionOne();
 
 function questionTwo(){
 let qusTwo = prompt('Do you think I studied programming ?');
-//console.log(qusTwo);
-//alert(qusTwo);
 qusTwo = qusTwo.toLowerCase();
 switch(qusTwo){
     case 'yes':
@@ -48,8 +44,6 @@ questionTwo();
 
 function questionThree(){
 let qusThree = prompt('Is the University of Jordan the one that I studied at or not?');
-//console.log(qusThree);
-//alert(qusThree);
 qusThree = qusThree.toLowerCase();
 switch(qusThree){
     case 'yes':
@@ -70,8 +64,6 @@ questionThree();
 
 function questionFour(){
 let qusFour = prompt('Do you think I got certificates in another field of IT?');
-//console.log(qusFour);
-//alert(qusFour);
 qusFour = qusFour.toLowerCase();
 switch(qusFour){
     case 'yes':
@@ -93,8 +85,6 @@ questionFour();
 
 function questionFive(){
 let qusFive = prompt('Do you think the first field I got deeper into was programming?');
-//console.log(qusFive);
-//alert(qusFive);
 qusFive = qusFive.toLowerCase();
 switch(qusFive){
     case 'yes':
@@ -178,8 +168,6 @@ alert('the correct answer is: ' + talent[0]+ ',' + talent[1] + ',' +talent[2]+ '
 
 
 
-//Hello World
-// New Comment
 
 
 
