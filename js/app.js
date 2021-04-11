@@ -124,57 +124,61 @@ alert('You exhausted your 4 attempts, correct answer # 4');
 
 
 
+// function questionSeven(){
+//     let score = 0;
+//     let talent = ['dancing', 'acting', 'singing', 'painting', 'reading'];
+//     let answer= null;
+//         for (let i = 0; i < 6 ; i++) {
+//            answer = prompt('guess one of the talents ?!');
+//             answer= answer.toLowerCase();
+//             for(let j= 0 ; j< talent.length; j++){
+//                 if(answer.toLowerCase() === talent[j]){
+//                     alert('that\'s correct you guess one of talent !');
+//                     score++;                
+//                    break;
+//                 }
+//             }
+//                 if (answer.toLowerCase() === talent[j]){
+//                     break;
+//                 }
 
-function questionSeven(){
-let score = 0;
-let talent = ['dancing', 'acting', 'singing', 'painting', 'reading'];
-let answer= null;
-    for (let x = 0; x < 6 ; x++) {
-       answer = prompt('guess one of the talents ?!');
-        answer= answer.toLowerCase();
-        for(let y= 0 ; y< talent.length; y++){
-            if(answer === talent[y]){
-                alert('that\'s correct !');
-                score++;
-                alert('your score ' + score);
-                console.log('your score got = ' + score);
-                console.log(answer);
-                y=50;
-                break;
-
-            }
-            if (answer !== talent[y]){
-                alert('try again ');
-            
-            }
-            }
-
-            
-            
-            if (x === 5){
-                alert('you didnt answer correctly');
-            }
-}
-        
     
-    
+//                 if (i === 5){
+//                     alert('you didnt guess one of talent');
+//                     break;
+//                 }
+//                 answer = prompt('wrong answer, try again!');
 
-alert('the correct answer is: ' + talent[0]+ ',' + talent[1] + ',' +talent[2]+ ',' + talent[3] + ',' + talent[4] );
-    alert('your scour is ' + score);
+//             }
+//         }
+//             alert('the correct answer is: ' + talent[0]+ ',' + talent[1] + ',' +talent[2]+ ',' + talent[3] + ',' + talent[4] );
+//              alert('your scour is ' + score);
+             
+//               questionSeven();
+
+            
+function questionseven (){
+    let talent = ['dancing','reading','acting','singing','painting'];
+    let answer = prompt('can you guess one of talents?');
+  
+    for(let i=0;i<6;i++){
+      for(let j=0;j<talent.length;j++){
+        if (answer.toLowerCase() === talent[j]){
+          alert('correct .. you guess one');
+          score+=1;
+          i=j;
+          break;
+        }
+      }
+      if(answer.toLowerCase() === talent[i]){
+        break;
+      }
+      if(i===5){
+        alert('sorry! that is a wrong answer, the correct answers -> :  '+ talent);
+        break;
+      }
+      answer = prompt('wrong answer, please try another guess?');
     }
-
- questionSeven();
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+  }
+  questionseven();
+  alert('okey, your score is '+score+' out of 7');
