@@ -122,40 +122,6 @@ for (let i = 0; i < 4; i++) {
 questionSix();
 alert('You exhausted your 4 attempts, correct answer # 4');
 
-
-
-// function questionSeven(){
-//     let score = 0;
-//     let talent = ['dancing', 'acting', 'singing', 'painting', 'reading'];
-//     let answer= null;
-//         for (let i = 0; i < 6 ; i++) {
-//            answer = prompt('guess one of the talents ?!');
-//             answer= answer.toLowerCase();
-//             for(let j= 0 ; j< talent.length; j++){
-//                 if(answer.toLowerCase() === talent[j]){
-//                     alert('that\'s correct you guess one of talent !');
-//                     score++;                
-//                    break;
-//                 }
-//             }
-//                 if (answer.toLowerCase() === talent[j]){
-//                     break;
-//                 }
-
-    
-//                 if (i === 5){
-//                     alert('you didnt guess one of talent');
-//                     break;
-//                 }
-//                 answer = prompt('wrong answer, try again!');
-
-//             }
-//         }
-//             alert('the correct answer is: ' + talent[0]+ ',' + talent[1] + ',' +talent[2]+ ',' + talent[3] + ',' + talent[4] );
-//              alert('your scour is ' + score);
-             
-//               questionSeven();
-
             
 function questionseven (){
     let talent = ['dancing','reading','acting','singing','painting'];
